@@ -1,6 +1,14 @@
 
 body {
-  font-family: arial; background-image: url(/Images/tdgbackground.jpg); background-size: cover;
+  font-family: arial;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(204, 45, 45);
 }
 .main {
   margin: 2%;
@@ -31,24 +39,14 @@ body {
   padding: 10px;
 }
 
-h1:hover {
-  font-size: 130%;
-  color: #000;
-}
-
 .des {
   padding: 3px;
   text-align: center;
   padding-top: 10px;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
-  text-overflow: clip;
-
 }
 
-.des :hover{
-  overflow: visible;
-}
 
 button {
   margin-top: 40px;
